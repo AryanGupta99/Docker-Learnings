@@ -1,0 +1,9 @@
+-> NOw, i have update some feature in my javascript application 
+-> and i want to build another container image for it .
+-> to run and test the new feature of application
+-> what i will is that i'll build the image and run it in my local machine.
+->for building new image use this command :
+  : docker build -t new-feature or you can use the same container to build the image
+-> now test the application by running it inside the container.
+-> for running the application use this command : 
+  : docker run -d -p 3000:3000 myimage
