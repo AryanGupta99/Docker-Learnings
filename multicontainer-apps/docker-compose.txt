@@ -1,0 +1,14 @@
+->now at this point we know how to store data using database in a container 
+-> we also know some networking in container they two container on same network can talk to each other or interact 
+-> but we have to write a lot of commands in the terminal of docker just to get things up and runnig 
+-> this will become a tough task while working in the production or project
+-> bcoz in this demo case there was just one container 
+-> but in reality there will be thousands of container running in the production team
+->you cannot to each container and start them , stop them, give them network commands or other stuff at one time.
+-> so you need some sort of automation thing to change stuff at every container.
+
+--------------------------------------------------------
+->that is where Docker-compose comes into picture
+-> But, there’s a good chance you are starting to feel a little overwhelmed with everything you need to do to start up this application. We have to create a network, start containers, specify all of the environment variables, expose ports, and more! That’s a lot to remember and it’s certainly making things harder to pass along to someone else.
+
+In the next section, we’ll talk about Docker Compose. With Docker Compose, we can share our application stacks in a much easier way and let others spin them up with a single (and simple) command!
