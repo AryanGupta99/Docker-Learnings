@@ -12,3 +12,6 @@
 :you can also maintain the file system changes
 :bind mount is used in development workflow bcoz there will be multiple databases integrated in applicatin and you have to send data to every where.
 
+--------------------------------------------------------
+-> Using bind mounts is very common for local development setups. The advantage is that the dev machine doesn’t need to have all of the build tools and environments installed. With a single docker run command, the dev environment is pulled and ready to go. 
+
