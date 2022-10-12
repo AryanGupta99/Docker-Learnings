@@ -4,3 +4,13 @@ we have been working with single container apps. But, we now want to add MySQL t
     Separate containers let you version and update versions in isolation
     While you may use a container for the database locally, you may want to use a managed service for the database in production. You don’t want to ship your database engine with your app then.
     Running multiple processes will require a process manager (the container only starts one process), which adds complexity to container startup/shutdown
+----------------------------------------
+
+-:> Container networking
+
+-> Remember that containers, by default, run in isolation and don’t know anything about other processes or containers on the same machine. So, how do we allow one container to talk to another? The answer is networking. Now, you don’t have to be a network engineer (hooray!). Simply remember this rule...
+
+   : Note
+
+ ->   If two containers are on the same network, they can talk to each other. If they aren’t, they can’t.
+
